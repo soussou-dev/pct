@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  
+    <title>Village Allakro</title>
+  
+    <link rel="stylesheet" href="../assets/css/maicons.css">
+  
+  <link rel="shortcut icon" href="../assets/img/doctors/logo_allakro-removebg-preview.ico"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+  
+    <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+  
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+  
+    <link rel="stylesheet" href="../assets/css/theme.css">
+  </head>
+<body>
+
+
+  <!-- .page-section -->
+
+  <div class="page-section">
+    <div class="container">
+      <h1 class="text-center wow fadeInUp">Formulaire d'Inscription</h1>
+
+      <form class="main-form">
+        <div class="row mt-5 ">
+          <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
+            <h6 class="text wow fadeInUp">Votre nom</h6>
+            <input type="text" required class="form-control" placeholder="Votre nom"Request>
+            </div>
+          <div class="col-12 col-sm-6 py-2 wow fadeInRight">
+            <h6 class="text wow fadeInUp">Votre Prénoms</h6>
+            <input type="text" required class="form-control" placeholder="Votre Prénoms..">
+          </div>
+          <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms">
+            <h6 class="text wow fadeInUp">Votre date de naissance</h6>
+            <input type="date" required class="form-control" placeholder="Votre date de naissance">
+          </div>
+          <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
+            <h6 class="text wow fadeInUp">Votre genre</h6>
+            <select name="genre"  id="genre" class="custom-select"required >
+              <option value="Votre Choix">Votre Choix....</option>
+              <option value="MASCULIN">MASCULIN</option>
+              <option value="FEMININ">FEMININ</option>
+            </select>
+          </div>
+          <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms" >
+            <h6 class="text wow fadeInUp" >Lieu d'habitation</h6>
+            <input type="habitation" required class="form-control" placeholder="Votre lieu">
+          </div>
+          <div class="col-12 col-sm-6 py-6 wow fadeInUp" data-wow-delay="300ms">
+            <h6 class="text wow fadeInUp">Votre Numero</h6>
+            <input type="text" required class="form-control" placeholder="Numero">
+          </div>
+          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms" >
+            <h6 class="text wow fadeInUp">Votre metier</h6>
+            <textarea name="votre metier" id="votre metier" class="form-control" rows="6" placeholder="Entré votre metier.." required></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Envoyé</button>
+      </form>
+    </div> <!-- .container -->
+  </div>  
+
+<script src="../assets/js/jquery-3.5.1.min.js"></script>
+
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="../assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+<script src="../assets/vendor/wow/wow.min.js"></script>
+
+<script src="../assets/js/theme.js"></script>
+  
+</body>
+</html>
